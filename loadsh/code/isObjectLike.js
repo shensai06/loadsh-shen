@@ -20,8 +20,9 @@
  * isObjectLike(null)
  * // => false
  */
+// 是否是一个obj
 function isObjectLike(value) {
-  return typeof value === 'object' && value !== null
+  return typeof value === "object" && value !== null;
 }
 
-export default isObjectLike
+export default isObjectLike;
